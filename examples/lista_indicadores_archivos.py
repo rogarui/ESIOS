@@ -4,7 +4,7 @@ import requests
 
 
 #Token ESIOS (introducir tu propio token)
-esios_token = '0d31017ec920c6daa1c1ecfcb0fe166574f370ac7908674cdffcc5015500daea'
+esios_token = ''
 
 address = "https://api.esios.ree.es/archives?date=2023-09-15T23:59:59+00:00"
 
