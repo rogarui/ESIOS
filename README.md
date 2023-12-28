@@ -12,10 +12,12 @@ Para poder utilizar esta API se deberá solicitar un token personal enviando un 
 Suelen ser rápidos en contestar 🤞
 
 ## Listado de indicadores y archivos
-En el archivo [lista_indicadores_archivos.py](examples/lista_indicadores_archivos.py) encontrareis el código para obtener la lista de indicadores junto con su id, así como la lista de archivos junto con su id.  
+En el archivo [lista_indicadores_archivos.py](examples/lista_indicadores_archivos.py) encontrareis el código para obtener la lista de indicadores y de archivos junto con su _id_.  
 Los archivos varían dependiendo del día que busquemos, por eso en el código se ha implementado una busqueda por fecha.  
 
-Se han añadido unas lineas para poder descargarlos en excel (descomentar para que se ejecuten correctamente).
+Este _id_ es muy importante ya que es que luego usaremos en las llamadas para rescatar la información de la API.
+
+PD: Se han añadido unas lineas para poder descargarlos en excel (descomentar para que se ejecuten correctamente).
 
 ## Descarga de un archivo
 
