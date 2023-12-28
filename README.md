@@ -35,7 +35,11 @@ PD: Se han añadido unas lineas para poder descargarlos en excel (descomentar pa
 ## Descarga de un archivo ⬇️⬇️
 
 Para poder descargar un archivo de la API previamente debemos conocer su _id_.  
-Como en el paso anterior lo hemos aprendido a obtener, simplemente usaremos este _id_ en el fichero [descarga_archivos.py](examples/descarga_archivos.py).
+Como en el paso anterior lo hemos aprendido a obtener, simplemente usaremos este _id_ en el fichero [descarga_archivos.py](examples/descarga_archivos.py).  
+
+También podemos usar la url obtenida de la lista de archivos para ver como hacer la llamada a la API.  
+
+Si necesiitamos descargar archivos de varios días, podemos usar el código [descarga_archivos_extra.py](examples/descarga_archivos_extra.py).
 
 ## Busqueda por indicador 🔎🔎
 
