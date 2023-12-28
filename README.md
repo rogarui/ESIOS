@@ -11,7 +11,7 @@ https://api.esios.ree.es/
 Para poder utilizar esta API se deberá solicitar un token personal enviando un correo a consultasios@ree.es.  
 Suelen ser rápidos en contestar 🤞
 
-## Listado de indicadores y archivos
+## Listado de indicadores y archivos 🧾🧾
 En el archivo [lista_indicadores_archivos.py](examples/lista_indicadores_archivos.py) encontrareis el código para obtener la lista de indicadores y de archivos junto con su _id_.  
 Los archivos varían dependiendo del día que busquemos, por eso en el código se ha implementado una busqueda por fecha.  
 
@@ -32,9 +32,12 @@ Obtendremos algo así:
 
 PD: Se han añadido unas lineas para poder descargarlos en excel (descomentar para que se ejecuten correctamente).
 
-## Descarga de un archivo
+## Descarga de un archivo ⬇️⬇️
 
-## Busqueda por indicador
+Para poder descargar un archivo de la API previamente debemos conocer su _id_.  
+Como en el paso anterior lo hemos aprendido a obtener, simplemente usaremos este _id_ en el fichero descarga_archivos.py.
+
+## Busqueda por indicador 🔎🔎
 
 
 
