@@ -12,7 +12,7 @@ Para poder utilizar esta API se deberá solicitar un token personal enviando un 
 Suelen ser rápidos en contestar 🤞
 
 ## Listado de indicadores y ficheros
-En el archivo indicadores_ficheros.py encontrareis el código para obtener la lista de indicadores junto con su id, así como la lista de archivos junto con su id.
+En el archivo [indicadores_ficheros.py](examples/lista_indicadores.txt) indicadores_ficheros.py encontrareis el código para obtener la lista de indicadores junto con su id, así como la lista de archivos junto con su id.
 ## Busqueda por indicador
 
 
