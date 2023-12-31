@@ -4,6 +4,7 @@ Guía para aprender a utilizar la API de ESIOS de Red Eléctrica con Python.
 Nos vamos a centrar en como conseguir información de los distintos indicadores de la API y graficar los datos de una forma sencilla, así como descargar archivos.
 
 ## Documentación oficial
+Esta es la documentación oficial proporcionada por REE para el uso de su API.  
 https://api.esios.ree.es/
 
 ## Obtener un token
