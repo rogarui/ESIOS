@@ -39,7 +39,7 @@ Como en el paso anterior lo hemos aprendido a obtener, simplemente usaremos este
 
 También podemos usar la url obtenida de la lista de archivos para ver como hacer la llamada a la API.  
 
-Si necesiitamos descargar archivos de varios días, podemos usar el código [descarga_archivos_extra.py](examples/descarga_archivos_extra.py).
+Si necesitamos descargar archivos de varios días, podemos usar el código [descarga_archivos_extra.py](examples/descarga_archivos_extra.py).
 
 ## Busqueda por indicador 🔎🔎
 
