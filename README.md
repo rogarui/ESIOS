@@ -16,7 +16,7 @@ Suelen ser rápidos en contestar 🤞
 
 ## 🧾 Listado de indicadores y archivos 
 En el archivo [lista_indicadores_archivos.py](examples/lista_indicadores_archivos.py) encontrareis el código para obtener la lista de indicadores y de archivos junto con su _id_.  
-Los archivos varían dependiendo del día que busquemos, por eso en el código se ha implementado una busqueda por fecha.  
+Los archivos varían dependiendo del día que busquemos, por eso en el código se ha implementado una búsqueda por fecha.  
 
 Este _id_ es muy importante ya que es que luego usaremos en las llamadas para rescatar la información de la API.  
 
@@ -44,7 +44,7 @@ También podemos usar la url obtenida de la lista de archivos para ver como hace
 
 Si necesitamos descargar archivos de varios días, podemos usar el código [descarga_archivos_extra.py](examples/descarga_archivos_extra.py).
 
-## 🔎 Busqueda por indicador 
+## 🔎 Búsqueda por indicador 
 
 Para poder obtener información de un indicador de la API, previamente debemos conocer su _id_.  
 La url para llamar a la API siempre tiene la misma estructura inicial, lo unico que debermos variar serán los parámetros con el fin de obtener la información de una fomra o de otra.  
@@ -65,15 +65,15 @@ Name | Description |
 
 Para los siguientes ejemplos se va a usar el indicador `600` correspondiente al precio Spot.
 
-### Busqueda por rango de fecha  
+### Búsqueda por rango de fecha  
 
 Una vez obtenido el indicador deseado (`600`), simplemente usaremos el fichero [descarga_datos_por_fecha.py](examples/descarga_datos_por_fecha.py) para obtener los datos usando el filtro de fechas deseado.
 
-### Busqueda por rango de fecha y agrupación/agregación temporal 
+### Búsqueda por rango de fecha y agrupación/agregación temporal 
 
 Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`) para obtener los datos agrupados por días, meses, años...y esta agregación puede ser usando una media o la suma de los datos (`time_agg`).
 
-### Busqueda por país 
+### Búsqueda por país 
 
 
 ## 🖌️ Visualización con Plotly
