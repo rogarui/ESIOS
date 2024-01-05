@@ -14,7 +14,7 @@ esios_token = ''
 #FUNCION CONECTAR ESIOS
 def esios_api(id_code, fecha_inicial, fecha_final, esios_token):
     try:
-        address = "http://api.esios.ree.es/indicators/%s?start_date=%sT21:00:00Z&end_date=%sT23:00:00Z&time_trunc=hour" % (id_code, fecha_inicial, fecha_final)
+        address = "http://api.esios.ree.es/indicators/%s?start_date=%sT21:00:00Z&end_date=%sT23:00:00Z" % (id_code, fecha_inicial, fecha_final)
 
         print(address)
         resp = requests.get(address, headers={'x-api-key' : '%s' %(esios_token),
