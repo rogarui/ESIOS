@@ -81,7 +81,7 @@ Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`
 Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos como los sigueintes:  
 _Dejo algunos ejemplos para que los podais usar._ 
 
-[generacion_PV_provincia.py](examples/generacion_PV_provincia.py)  
+[generacion_PV_provincias.py](examples/generacion_PV_provincias.py)  
 
 <img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_pv.png" width=50% height=50%>
 
