@@ -26,12 +26,14 @@ Obtendremos algo así:
 | :----: | :----: | :----: |  :----: | :----: |
 | C2_PrecioFinal | 187 | zip | [2023-10-10] | /archives/187/download?date=2023-09-16T23%3A59... |
 | REE_BalancingEnerBids | 181 | csv | [2023-09-16, 2023-09-17] | /archives/181/download?date=2023-09-16T23%3A59... |
+| ... | ... | ... | ... | ... |
 
 
  nombre | id |
 | :----: | :----: |
 | Generación programada PBF Hidráulica UGH | 1 |
 | Generación programada PBF Hidráulica no UGH | 2 |
+| ... | ... |
 
 _Se han añadido unas líneas para poder descargarlos en Excel (este ejemplo era un Excel, tocará poner el formato que corresponda), descomentar para que se ejecuten correctamente._
 
