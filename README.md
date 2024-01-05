@@ -33,7 +33,7 @@ Obtendremos algo así:
 | Generación programada PBF Hidráulica UGH | 1 |
 | Generación programada PBF Hidráulica no UGH | 2 |
 
-_Se han añadido unas lineas para poder descargarlos en excel (descomentar para que se ejecuten correctamente)._
+_Se han añadido unas lineas para poder descargarlos en excel (este ejemplo era un excel, tocará poner el formato que corresponda), descomentar para que se ejecuten correctamente._
 
 ## ⬇️ Descarga de un archivo 
 
@@ -78,7 +78,7 @@ Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`
 
 ## 🖌️ Visualización con Plotly
 
-Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos como los sigueintes:  
+Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos como los siguientes:  
 _Dejo algunos ejemplos para que los podais usar._ 
 
 [generacion_PV_provincias.py](examples/generacion_PV_provincias.py)  
