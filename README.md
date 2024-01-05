@@ -3,7 +3,7 @@
 Guía para aprender a utilizar la API de ESIOS de Red Eléctrica con Python.  
 Nos vamos a centrar en como conseguir información de los distintos indicadores de la API y graficar los datos de una forma sencilla, así como descargar archivos.  
 
-_Es cierto que para usar esta guía no se necesita un gran conocimiento de Python pero si una mínima base para poder tocar y trastear con comodidad._
+_Es cierto que para usar esta guía no se necesita un gran conocimiento de Python pero sí una mínima base para poder tocar y trastear con comodidad._
 
 ## Documentación oficial
 Esta es la documentación oficial proporcionada por REE para el uso de su API.  
@@ -15,10 +15,10 @@ Para poder utilizar esta API se deberá solicitar un token personal enviando un 
 Suelen ser rápidos en contestar 🤞
 
 ## 🧾 Listado de indicadores y archivos 
-En el archivo [lista_indicadores_archivos.py](examples/lista_indicadores_archivos.py) encontrareis el código para obtener la lista de indicadores y de archivos junto con su _id_.  
+En el archivo [lista_indicadores_archivos.py](examples/lista_indicadores_archivos.py) encontraréis el código para obtener la lista de indicadores y de archivos junto con su _id_.  
 Los archivos varían dependiendo del día que busquemos, por eso en el código se ha implementado una búsqueda por fecha.  
 
-Este _id_ es muy importante ya que es que luego usaremos en las llamadas para rescatar la información de la API.  
+Este _id_ es muy importante ya que el es que luego usaremos en las llamadas para rescatar la información de la API.  
 
 Obtendremos algo así:  
 
