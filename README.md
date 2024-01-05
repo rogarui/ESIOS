@@ -5,11 +5,11 @@ Nos vamos a centrar en cómo conseguir información de los distintos indicadores
 
 _Es cierto que para usar esta guía no se necesita un gran conocimiento de Python pero sí una mínima base para poder tocar y trastear con comodidad._
 
-## Documentación oficial
+## 📔 Documentación oficial
 Esta es la documentación oficial proporcionada por REE para el uso de su API.  
 https://api.esios.ree.es/
 
-## Obtener un token
+## 🔑 Obtener un token
 
 Para poder utilizar esta API se deberá solicitar un token personal enviando un correo a consultasios@ree.es.  
 Suelen ser rápidos en contestar 🤞
