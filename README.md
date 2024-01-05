@@ -77,4 +77,4 @@ Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`
 ## Visualización con Plotly
 
 
-
+![alt text](images/descarga_datos_por_fecha.py "Logo Title Text 1")
