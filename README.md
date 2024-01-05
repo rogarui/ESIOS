@@ -82,12 +82,16 @@ En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agre
 También podemos descargar los datos de un país en concreto directamente.  
 La clave aqui es añadir el parámetro `geo_ids[]=X` donde _X_ será el _id_ del país en cuestión, dejo una lista:  
 
-País | id |
+id | País |
 | :----: | :----: |
 | 1 | Portugal |
 | 2 | Francia |
 | 3 | España |
-| 4 |  |
+| 8824 | Reino Unido |
+| 8825 | Italia |
+| 8826 | Alemania |
+| 8827 | Belgica |
+| 8828 | Paises Bajos |
 
 
 En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)  
