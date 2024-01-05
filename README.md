@@ -74,11 +74,13 @@ Una vez obtenido el indicador deseado (`600`), simplemente usaremos el fichero [
 
 ### Búsqueda por rango de fecha y agrupación/agregación temporal 
 
-Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`) para obtener los datos agrupados por días, meses, años...y esta agregación puede ser usando una media o la suma de los datos (`time_agg`).
+Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`) para obtener los datos agrupados por días, meses, años...y esta agregación puede ser usando una media o la suma de los datos (`time_agg`).  
+En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agregados.py)
 
 ### Búsqueda por país 
 
-También podemos descargar los datos de un país en concreto directamente.
+También podemos descargar los datos de un país en concreto directamente.  
+En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)
 
 ## 🖌️ Visualización con Plotly
 
