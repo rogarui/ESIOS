@@ -80,7 +80,9 @@ En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agre
 ### Búsqueda por país 
 
 También podemos descargar los datos de un país en concreto directamente.  
-En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)
+En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)  
+
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_spot_pais.png" width=100% height=100%>
 
 ## 🖌️ Visualización con Plotly
 
