@@ -80,6 +80,16 @@ En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agre
 ### Búsqueda por país 
 
 También podemos descargar los datos de un país en concreto directamente.  
+La clave aqui es añadir el parámetro `geo_ids[]=X` donde _X_ será el _id_ del país en cuestión, dejo una lista:  
+
+País | id |
+| :----: | :----: |
+| 1 | Portugal |
+| 2 | Francia |
+| 3 | España |
+| 4 |  |
+
+
 En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)  
 
 <img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_spot_pais.png" width=100% height=100%>
