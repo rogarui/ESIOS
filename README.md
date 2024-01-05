@@ -101,7 +101,7 @@ En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_p
 ## 🖌️ Visualización con Plotly
 
 Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos mucho más avanzados como el siguiente:  
-_Dejo algunos ejemplos para que los podáis usar._ 
+
 
 [generacion_PV_provincias.py](examples/generacion_PV_provincias.py)  
 
