@@ -69,7 +69,7 @@ Para los siguientes ejemplos se van a usar el indicador `600` correspondiente al
 
 Una vez obtenido el indicador deseado (`600`), simplemente usaremos el fichero [descarga_datos_por_fecha.py](examples/descarga_datos_por_fecha.py) para obtener los datos usando el filtro de fechas deseado.  
 
-<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_spot_pais.png" width=100% height=100%>
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_spot_fecha.png" width=100% height=100%>
 
 
 ### Búsqueda por rango de fecha y agrupación/agregación temporal 
