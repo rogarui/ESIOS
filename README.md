@@ -44,5 +44,37 @@ Si necesitamos descargar archivos de varios días, podemos usar el código [desc
 
 ## 🔎 Busqueda por indicador 
 
+Para poder obtener información de un indicador de la API, previamente debemos conocer su _id_.  
+La url para llamar a la API siempre tiene la misma estructura inicial, lo unico que debermos variar serán los parámetros con el fin de obtener la información de una fomra o de otra.  
+
+Lista de posibles parámetros:  
+
+Name | Description |
+| :----: | :----: |
+| locale | Obtener traducciones para idiomas (es, en). Idioma por defecto: es |
+| datetime | Una fecha determinada por la que filtrar los valores (formato iso8601) |
+| start_date | Comienzo del intervalo de fechas para filtrar los valores de los indicadores (formato iso8601) |
+| end_date | Fin del intervalo de fechas para filtrar los valores de los indicadores (formato iso8601) |
+| time_agg | Cómo agregar valores de indicadores al agruparlos por tiempo. Valores aceptados: `sum`, `average`. Valor por defecto: `sum`. |
+| time_trunc | Indica a la API cómo truncar las series temporales de datos. Valores aceptados: `five_minutes`, `ten_minutes`, `fifteen_minutes`, `hour`, `day`, `month`, `year`. |
+| geo_agg | Cómo agregar valores de indicadores al agruparlos por geo_id. Valores aceptados: `sum`, `average`. Valor por defecto: `sum`. |
+| geo_ids | Indica a la API los geoidentificadores por los que filtrar los datos. |
+| geo_trunc | Indica a la API cómo agrupar los datos a nivel de geolocalización cuando se informa al geo_agg. Valores aceptados: `country`, `electric_system`, `autonomous_community`, `province`, `electric_subsystem`, `town` and `drainage_basin`. |
+
+Para los siguientes ejemplos se va a usar el indicador `600` correspondiente al precio Spot.
+
+### Busqueda por rango de fecha  
+
+Una vez obtenido el indicador deseado (`600`), simplemente usaremos el fichero [descarga_datos_por_fecha.py](examples/descarga_datos_por_fecha.py) para obtener los datos usando el filtro de fechas deseado.
+
+### Busqueda por rango de fecha y agrupación/agregación temporal 
+
+Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`) para obtener los datos agrupados por días, meses, años...y esta agregación puede ser usando una media o la suma de los datos (`time_agg`).
+
+### Busqueda por país 
+
+
+## Visualización con Plotly
+
 
 
