@@ -1,7 +1,9 @@
 # ESIOS
 
 Guía para aprender a utilizar la API de ESIOS de Red Eléctrica con Python.  
-Nos vamos a centrar en como conseguir información de los distintos indicadores de la API y graficar los datos de una forma sencilla, así como descargar archivos.
+Nos vamos a centrar en como conseguir información de los distintos indicadores de la API y graficar los datos de una forma sencilla, así como descargar archivos.  
+
+_Es cierto que para usar esta guía no se necesita un gran conocimiento de Python pero si una mínima base para poder tocar y trastear con comodidad._
 
 ## Documentación oficial
 Esta es la documentación oficial proporcionada por REE para el uso de su API.  
@@ -31,7 +33,7 @@ Obtendremos algo así:
 | Generación programada PBF Hidráulica UGH | 1 |
 | Generación programada PBF Hidráulica no UGH | 2 |
 
-PD: Se han añadido unas lineas para poder descargarlos en excel (descomentar para que se ejecuten correctamente).
+_Se han añadido unas lineas para poder descargarlos en excel (descomentar para que se ejecuten correctamente)._
 
 ## ⬇️ Descarga de un archivo 
 
@@ -76,7 +78,8 @@ Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`
 
 ## Visualización con Plotly
 
+Con los datos de la API y Plotly podemos hacer gráficos como los sigueintes:  
+_Dejo algunos ejemplos para que los podais usar._ 
 
-![alt text](images/plot_pv.png "Ejemplo uso Plotly")
-<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width=50% height=50%>
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_pv.png" width=50% height=50%>
 
