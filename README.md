@@ -1,7 +1,7 @@
 # ESIOS
 
 Guía para aprender a utilizar la API de ESIOS de Red Eléctrica con Python.  
-Nos vamos a centrar en como conseguir información de los distintos indicadores de la API y graficar los datos de una forma sencilla, así como descargar archivos.  
+Nos vamos a centrar en cómo conseguir información de los distintos indicadores de la API y graficar los datos de una forma sencilla, así como descargar archivos.  
 
 _Es cierto que para usar esta guía no se necesita un gran conocimiento de Python pero sí una mínima base para poder tocar y trastear con comodidad._
 
@@ -33,7 +33,7 @@ Obtendremos algo así:
 | Generación programada PBF Hidráulica UGH | 1 |
 | Generación programada PBF Hidráulica no UGH | 2 |
 
-_Se han añadido unas lineas para poder descargarlos en excel (este ejemplo era un excel, tocará poner el formato que corresponda), descomentar para que se ejecuten correctamente._
+_Se han añadido unas líneas para poder descargarlos en Excel (este ejemplo era un Excel, tocará poner el formato que corresponda), descomentar para que se ejecuten correctamente._
 
 ## ⬇️ Descarga de un archivo 
 
@@ -47,7 +47,7 @@ Si necesitamos descargar archivos de varios días, podemos usar el código [desc
 ## 🔎 Búsqueda por indicador 
 
 Para poder obtener información de un indicador de la API, previamente debemos conocer su _id_.  
-La url para llamar a la API siempre tiene la misma estructura inicial, lo unico que debermos variar serán los parámetros con el fin de obtener la información de una fomra o de otra.  
+La url para llamar a la API siempre tiene la misma estructura inicial, lo único que deberemos variar serán los parámetros con el fin de obtener la información de una forma o de otra.  
 
 Lista de posibles parámetros:  
 
@@ -80,7 +80,7 @@ En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agre
 ### Búsqueda por país 
 
 También podemos descargar los datos de un país en concreto directamente.  
-La clave aqui es añadir el parámetro `geo_ids[]=X` donde _X_ será el _id_ del país en cuestión, dejo una lista:  
+La clave aquí es añadir el parámetro `geo_ids[]=X` donde _X_ será el _id_ del país en cuestión, dejo una lista:  
 
 id | País |
 | :----: | :----: |
@@ -90,8 +90,8 @@ id | País |
 | 8824 | Reino Unido |
 | 8825 | Italia |
 | 8826 | Alemania |
-| 8827 | Belgica |
-| 8828 | Paises Bajos |
+| 8827 | Bélgica |
+| 8828 | Países Bajos |
 
 
 En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)  
@@ -101,7 +101,7 @@ En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_p
 ## 🖌️ Visualización con Plotly
 
 Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos mucho más avanzados como el siguiente:  
-_Dejo algunos ejemplos para que los podais usar._ 
+_Dejo algunos ejemplos para que los podáis usar._ 
 
 [generacion_PV_provincias.py](examples/generacion_PV_provincias.py)  
 
