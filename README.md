@@ -82,7 +82,7 @@ También podemos descargar los datos de un país en concreto directamente.
 
 ## 🖌️ Visualización con Plotly
 
-Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos como los siguientes:  
+Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos mucho más avanzados como el siguiente:  
 _Dejo algunos ejemplos para que los podais usar._ 
 
 [generacion_PV_provincias.py](examples/generacion_PV_provincias.py)  
