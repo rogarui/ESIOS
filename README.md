@@ -63,7 +63,7 @@ Name | Description |
 | geo_ids | Indica a la API los geoidentificadores por los que filtrar los datos. |
 | geo_trunc | Indica a la API cómo agrupar los datos a nivel de geolocalización cuando se informa al geo_agg. Valores aceptados: `country`, `electric_system`, `autonomous_community`, `province`, `electric_subsystem`, `town` and `drainage_basin`. |
 
-Para los siguientes ejemplos se va a usar el indicador `600` correspondiente al precio Spot.
+Para los siguientes ejemplos se van a usar el indicador `600` correspondiente al precio Spot y el indicador XXX corespondiente a XXXX.
 
 ### Búsqueda por rango de fecha  
 
@@ -75,6 +75,7 @@ Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`
 
 ### Búsqueda por país 
 
+También podemos descargar los datos de un país en concreto directamente.
 
 ## 🖌️ Visualización con Plotly
 
