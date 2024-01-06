@@ -107,7 +107,9 @@ id | País |
 
 En este caso usaremos [descarga_datos_por_pais.py](examples/descarga_datos_por_pais.py)  
 
-<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_spot_pais.png" width=100% height=100%>
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_spot_pais.png" width=100% height=100%>  
+
+Como habeis podido ver, se trata de construir la url para hacer la llamada que mejor se adapte a lo que necesitamos. Lo podemos complicar todo lo que queramos, añadir varios países, indicadores, rangos temporales, eso dependerá de nuestra habilidad a la hora de saber tratar los datos después.
 
 ## 🖌️ Visualización con Plotly
 
