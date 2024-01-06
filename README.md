@@ -77,9 +77,16 @@ Una vez obtenido el indicador deseado (`600`), simplemente usaremos el fichero [
 ### Búsqueda por rango de fecha y agrupación/agregación temporal 
 
 Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`) para obtener los datos agrupados por días, meses, años...y esta agregación puede ser usando una media o la suma de los datos (`time_agg`).  
+
 En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agregados.py) para obtener la energía negociada en el mercado diario por día, usando la media y la suma.  
 
-<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_energia_suma.png" width=100% height=100%>
+Usando la suma  
+
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_energia_suma.png" width=100% height=100%>  
+
+Usando la media  
+
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_energia_media.png" width=100% height=100%>  
 
 ### Búsqueda por país 
 
