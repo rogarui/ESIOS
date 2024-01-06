@@ -65,7 +65,7 @@ Name | Description |
 | geo_ids | Indica a la API los geoidentificadores por los que filtrar los datos. |
 | geo_trunc | Indica a la API cómo agrupar los datos a nivel de geolocalización cuando se informa al geo_agg. Valores aceptados: `country`, `electric_system`, `autonomous_community`, `province`, `electric_subsystem`, `town` and `drainage_basin`. |
 
-Para los siguientes ejemplos se van a usar el indicador `600` correspondiente al precio Spot y el indicador XXX corespondiente a XXXX.
+Para los siguientes ejemplos se van a usar el indicador `600` correspondiente al precio Spot y el indicador `602` corespondiente a energía asignada en mercado Spot diario en España.
 
 ### Búsqueda por rango de fecha  
 
@@ -77,7 +77,9 @@ Una vez obtenido el indicador deseado (`600`), simplemente usaremos el fichero [
 ### Búsqueda por rango de fecha y agrupación/agregación temporal 
 
 Adicionalmente al rango de fechas podemos incorporar un parámetro (`time_trunc`) para obtener los datos agrupados por días, meses, años...y esta agregación puede ser usando una media o la suma de los datos (`time_agg`).  
-En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agregados.py)
+En este caso usaremos [descarga_datos_agregados.py](examples/descarga_datos_agregados.py) para obtener la energía negociada en el mercado diario por día, usando la media y la suma.  
+
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_energia_suma.png" width=100% height=100%>
 
 ### Búsqueda por país 
 
