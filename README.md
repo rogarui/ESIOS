@@ -113,10 +113,18 @@ Como habeis podido ver, se trata de construir la url para hacer la llamada que m
 
 ## 🖌️ Visualización con Plotly
 
-Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos mucho más avanzados como el siguiente:  
+Con los datos de la API y [Plotly](https://plotly.com/python/) podemos hacer gráficos mucho más avanzados como las siguientes:  
 
 
 [generacion_PV_provincias.py](examples/generacion_PV_provincias.py)  
 
-<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_pv.png" width=50% height=50%>
+<img src="https://github.com/rogarui/ESIOS/blob/main/images/plot_pv.png" width=50% height=50%>  
+
+Precio spot en España (proximamente)
+
+<img src="https://media.licdn.com/dms/image/D4E22AQHGugcl5Btimg/feedshare-shrink_1280/0/1684750873475?e=1707350400&v=beta&t=S2D0OoL-WYJfR0_TYPfN4WBa-lPMk0Pewe4Kv7elT7s" width=50% height=50%>
+
+
+
+
 
